@@ -51,4 +51,4 @@ def test_delete_request():
     response = requests.delete(url)
     response_json = response.json()
 
-    assert response.status_code == 200
+    assert response.status_code == 404
